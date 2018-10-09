@@ -7,5 +7,5 @@ var playlist = {
 
 function updatePlaylist(object,artistName,songTitle){
   playlist [artistName] = songTitle
-    return Playlist
+    return playlist
 }
