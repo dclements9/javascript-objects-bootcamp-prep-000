@@ -1,4 +1,4 @@
-var Playlist = {
+var playlist = {
   JohnLennon: "Imagine",
   VonWegenLisbeth: "Meine Kneipe",
   JackJohnson: "Radiate",
@@ -6,6 +6,6 @@ var Playlist = {
 }
 
 function updatePlaylist(object,artistName,songTitle){
-  Playlist [artistName] = songTitle
+  playlist [artistName] = songTitle
     return Playlist
 }
